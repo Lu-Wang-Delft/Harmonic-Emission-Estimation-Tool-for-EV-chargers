@@ -1,5 +1,5 @@
 # Harmonic-Emission-Estimation Tool for Fast-DC-EV-chargers
-## Background##
+## Background
 Fast charging stations (FCSs) are crucial for the rollout of Electric Vehicles (EVs). However, they, as a power-electronic based non-linear load, have impact on the power quality of the grid. To maintain the compatibility of the power grid with the upcoming massive introduction of FCSs, we need to investigate the potential power quality problems induced by the DC fast chargers. Among all the power quality issues, the harmonic emission noncompliance is one of the most important problems possibly induced by FCSs. 
 
 The harmonic emission estimation tool is thereby developed to provide a cloud based web app that can be used to
@@ -19,12 +19,16 @@ The corresponding impedance based model of the concept is illustrated below, whe
 * V<sub>PCC</sub> is the voltage at the point-of-common-coupling (PCC),
 * I<sub>e,tot</sub> is the harmonic emission of the FCS, 
 * Z<sub>g</sub> is the grid impedance
-* V<sub>g</sub> is the grid voltage which consists of the fundamental voltage (i.e., V<sub>1</sub>) and the harmonic voltages (i.e., V<sub>h</sub>)
+* V<sub>g</sub> is the grid voltage which consists of the fundamental voltage (i.e., V<sub>1</sub>) and the harmonic voltages (i.e., V<sub>h</sub>).
 
 <p align="center">
   <img src="./READMEimg/Impedance_illustration.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
 
-## Impedance model of DC fast chargers##
-The impedance model of DC fast chargers is essten
-## References##
+## Impedance model of DC fast chargers
+The impedance model of DC fast chargers is essential. 
+## References
+[1] L Wang, Z Qin, T Slangen, et al. Grid impact of electric vehicle fast charging stations: Trends, standards, issues and mitigation measures-An overview. *IEEE Open
+Journal of Power Electronics*,2021, 2: 56-74. [Publication link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9336258).
+
+[2] Robin Vujanic, Peyman Mohajerin Esfahani, *Title*, Journal, 2016.
