@@ -52,7 +52,7 @@ It is common that the operator of the FCS does not know the design specification
 
 Below, it shows the estimation results in a case study. More details can be found in the notebook *Parameter Estimation.ipynb*
 <p align="center">
-  <img src="./READMEimg/ParameterEstimationResults.png" alt="Scenarios Tree" width="100%" href="#"/>
+  <img src="./READMEimg/ParameterEstimationResults.png" alt="Scenarios Tree" width="90%" href="#"/>
 </p>
 
 ## Harmonic current source model of DC fast chargers
@@ -66,3 +66,5 @@ TBD
 Journal of Power Electronics*,2021, 2: 56-74. [Publication link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9336258).
 
 [2] L Wang, Z Qin, , L B Larumbe, et al. Python Supervised Co-simulation for a Day-long Harmonic Evaluation of EV Charging. *Chinese Journal of Electrical Engineering*,2021, 7(4): 15-24. [Publication link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9675057).
+
+[3] L B Larumbe, Z Qin, , L Wang, et al. Impedance Modeling for Three-Phase Inverters With Double Synchronous Reference Frame Current Controller in the Presence of Imbalance. *IEEE Transactions on Power Electronics*,2021, 37(2): 1461-1475. [Publication link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9521843).
