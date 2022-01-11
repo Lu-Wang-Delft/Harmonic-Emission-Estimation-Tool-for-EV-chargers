@@ -11,7 +11,7 @@ The concept of the tool is illustrated below.
 <p align="center">
   <img src="./READMEimg/concept.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
-The corresponding impedance based model of the concept is illustrated below, where 
+The corresponding impedance based model of the concept is illustrated below, where<br/>
 - I<sub>ci</sub> is the harmonic current source of the charger i,
 - Z<sub>ci</sub> is the impedance of the charger i,
 - I<sub>ei</sub> is the harmonic emission of the charger i,
