@@ -12,7 +12,14 @@ The concept of the tool is illustrated below.
   <img src="./READMEimg/concept.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
 The corresponding impedance based model of the concept is illustrated below, where 
-- I<sub>c
+- I<sub>ci</sub> is the harmonic current source of the charger i,
+- Z<sub>ci</sub> is the impedance of the charger i,
+- I<sub>ei</sub> is the harmonic emission of the charger i,
+- V<sub>PCC</sub> is the voltage at the point-of-common-coupling (PCC),
+- I<sub>e,tot</sub> is the harmonic emission of the FCS, 
+- Z<sub>g</sub> is the grid impedance
+- V<sub>g</sub> is the grid voltage which consists of the fundamental voltage (i.e., V<sub>1</sub>) and the harmonic voltages (i.e., V<sub>h</sub>)
+
 <p align="center">
   <img src="./READMEimg/Impedance_illustration.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
