@@ -8,5 +8,5 @@ The harmonic emission estimation tool is thereby developed to provide a cloud ba
 
 The concept of the tool is illustrated below.
 <p align="center">
-  <img src="./READMEimg/concept.PNG" alt="Scenarios Tree" width="60%" href="#"/>
+  <img src="./READMEimg/concept.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
