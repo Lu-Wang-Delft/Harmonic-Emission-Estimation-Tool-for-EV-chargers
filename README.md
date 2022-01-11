@@ -44,7 +44,7 @@ The impedance model of a DC fast charger is essential for estimating the harmoni
 ### Impedance at different charging power
 It is noted that a charger's impedance changes with the change of the charging power. Thus, with the help of this tool, the charger's impedance at different charging power can be obtained once the design specifications of the charger are given. For instance, in the figure below, it shows the impedance of a DC fast charger at 30 kW, which is obtained with the analytical model in this tool and simulation in PLECS. Note that the two results matches with each other.
 <p align="center">
-  <img src="./READMEimg/analyticalVSsimulation.PNG" alt="Scenarios Tree" width="100%" href="#"/>
+  <img src="./READMEimg/analyticalVSsimulation.png" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
 
 
