@@ -33,6 +33,12 @@ Although the goal is making the tool generally applicable, a typical design is c
   <img src="./READMEimg/typical design.PNG" alt="Scenarios Tree" width="80%" href="#"/>
 </p>
 
+In the table below, the design that has been considered or to be considered are shown
+Topology         | Power filter | PLL     | Current control | Voltage control |
+:---             | :---         | :---    | :---            | :---            
+2-level VSC      | L-filter     | SRF-PLL | SRF-PI          | PI
+Vienna rectifier | LCL-filter   | -       | PR              | -
+
 ### Impedance at different charging power
 
 ### Parameter estimation when design specifications are unknown
