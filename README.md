@@ -25,10 +25,10 @@ The corresponding impedance based model of the concept is illustrated below, whe
   <img src="./READMEimg/Impedance_illustration.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
 
-## Impedance model of DC fast chargers
-The impedance model of DC fast chargers is essential. Typically, DC fast chargers consists of several power modules. Each power module consists of two power conversion stages (i.e., AC/DC stage and DC/DC), which is presented in Ref. [1]. For power quality analysis, only the impedance of the AC/DC converter is needed since the DC/DC converter is decoupled by the DC-link capacitor.
-### Typical topology and control strategy
-Although the goal is making the tool generally applicable, a typical design is considered at this stage. More topologies and control strategies will be considered in the future. Below, it shows the typical design of the AC/DC converter a DC fast charger's power module. In this typical design, the L-filter, conventional 2-level voltage-source converter, synchronous-frame PLL, synchronous-frame PI controller, and PI controller are used for the power filter, topology, PLL, current controller, and voltage controller, respectively.
+## The considered topology and control strategies
+Although the goal is making the tool generally applicable, a typical design is considered at this stage. More topologies and control strategies will be considered in the future. 
+
+Typically, DC fast chargers consists of several power modules. Each power module consists of two power conversion stages (i.e., AC/DC stage and DC/DC), which is presented in Ref. [1]. For power quality analysis, only the impedance of the AC/DC converter is needed since the DC/DC converter is decoupled by the DC-link capacitor.Below, it shows the typical design of the AC/DC converter a DC fast charger's power module. In this typical design, the L-filter, conventional 2-level voltage-source converter, synchronous-frame PLL, synchronous-frame PI controller, and PI controller are used for the power filter, topology, PLL, current controller, and voltage controller, respectively.
 <p align="center">
   <img src="./READMEimg/typical design.PNG" alt="Scenarios Tree" width="80%" href="#"/>
 </p>
@@ -39,7 +39,14 @@ Topology         | Power filter | PLL     | Current control | Voltage control |
 2-level VSC      | L-filter     | SRF-PLL | SRF-PI          | PI
 Vienna rectifier | LCL-filter   | -       | PR              | -
 
+## Impedance model of DC fast chargers
+The impedance model of a DC fast charger is essential for estimating the harmonic emission of the charger when it is connected to a non-ideal grid. To run the illustrative notebooks regarding this part, please refer to the folder *Impedance*.
 ### Impedance at different charging power
+It is noted that a charger's impedance changes with the change of the charging power. Thus, with the help of this tool, the charger's impedance at different charging power can be obtained once the design specifications of the charger are given. For instance, in the figure below, it shows the impedance of a DC fast charger at 30 kW, which is obtained with the analytical model in this tool and simulation in PLECS. Note that the two results matches with each other.
+<p align="center">
+  <img src="./READMEimg/analyticalVSsimulation.PNG" alt="Scenarios Tree" width="100%" href="#"/>
+</p>
+
 
 ### Parameter estimation when design specifications are unknown
 
