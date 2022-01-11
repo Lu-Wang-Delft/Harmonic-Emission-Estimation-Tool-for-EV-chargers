@@ -42,18 +42,23 @@ Vienna rectifier | LCL-filter   | -       | PR              | -
 ## Impedance model of DC fast chargers
 The impedance model of a DC fast charger is essential for estimating the harmonic emission of the charger when it is connected to a non-ideal grid. To run the illustrative notebooks regarding this part, please refer to the folder *Impedance*.
 ### Impedance at different charging power
-It is noted that a charger's impedance changes with the change of the charging power. Thus, with the help of this tool, the charger's impedance at different charging power can be obtained once the design specifications of the charger are given. For instance, in the figure below, it shows the impedance of a DC fast charger at 30 kW, which is obtained with the analytical model in this tool and simulation in PLECS. In the figureNote that the two results matches with each other.
+It is noted that a charger's impedance changes with the change of the charging power. Thus, with the help of this tool, the charger's impedance at different charging power can be obtained once the design specifications of the charger are given. For instance, in the figure below, it shows the impedance of a 30-kW DC fast charger in the sequence domain at 30 kW and 0 kW, which is obtained with the analytical model in this tool and simulation in PLECS. In the figure, M(1,1) is the positive sequence impedance, M(1,2) is the frequency coupling impedance of the positive sequence impedance, M(2,1,) is the frequency coupling impedance of the negative sequence impedance, and M(2,2) is the negative sequence impedance. Note that the two results matches with each other.
 <p align="center">
   <img src="./READMEimg/analyticalVSsimulation.png" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
 
 ### Parameter estimation when design specifications are unknown
+It is common that the operator of the FCS does not know the design specifications of the 
+<p align="center">
+  <img src="./READMEimg/ParameterEstimationResults.png" alt="Scenarios Tree" width="100%" href="#"/>
+</p>
 
 ## Harmonic current source model of DC fast chargers
 TBD
 ## Online grid impedance estimation method
 TBD
 ## Estimation of a fast-charging station's harmonic emission
+TBD
 ## References
 [1] L Wang, Z Qin, T Slangen, et al. Grid impact of electric vehicle fast charging stations: Trends, standards, issues and mitigation measures-An overview. *IEEE Open
 Journal of Power Electronics*,2021, 2: 56-74. [Publication link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9336258).
