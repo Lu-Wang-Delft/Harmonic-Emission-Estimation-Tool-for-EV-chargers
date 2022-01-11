@@ -11,7 +11,12 @@ The concept of the tool is illustrated below.
 <p align="center">
   <img src="./READMEimg/concept.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
-The corresponding impedance based model of the concept is illustrated below.
+The corresponding impedance based model of the concept is illustrated below, where 
+- I<sub>c
 <p align="center">
   <img src="./READMEimg/Impedance_illustration.PNG" alt="Scenarios Tree" width="100%" href="#"/>
 </p>
+
+## Impedance model of DC fast chargers
+The impedance model of DC fast chargers is essten
+## References
